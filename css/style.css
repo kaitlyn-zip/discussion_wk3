@@ -1,0 +1,99 @@
+/* Navigation Bar Styles */
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-color: #333;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar li {
+  margin: 0;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #111;
+  opacity: 0.5;
+}
+
+
+h1 {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    padding: 20px;
+}
+
+h2 {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    padding: 20px;
+}
+
+p {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 20px;
+}
+
+
+body {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+b {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    opacity: 0.6;
+}
+
+footer {
+    font-family: 'inter', Arial, Helvetica, sans-serif;
+    opacity: 0.5;
+}
+
+i {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: italic;
+    opacity: 0.6;
+    font-size: 15px;
+}
+
+.coffee {
+    opacity: 0.3;
+    width: 500px;
+    height: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.typewriter {
+  overflow: hidden;
+  border-right: 3px solid #65d6ce;
+  white-space: nowrap;
+  animation: typing 3s steps(20, end), blink 0.6s step-end infinite;
+  width: 0;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 15ch }
+}
+@keyframes blink {
+  50% { border-color: transparent }
+}
